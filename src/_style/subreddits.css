@@ -1,0 +1,6 @@
+table {
+  color: black; }
+  table a {
+    padding: 4px; }
+    table a.btn-icon {
+      color: #ff8a65; }

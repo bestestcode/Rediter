@@ -1,0 +1,111 @@
+html, body {
+  background-color: #fafafa;
+  color: #fff; }
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column; }
+
+.rf-new-post-notification {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px; }
+
+.rf-vertical-center {
+  display: flex;
+  align-items: center; }
+
+.rf-timestamp {
+  margin-left: 24px; }
+
+a {
+  text-decoration: none;
+  transition: all .6s ease 0s; }
+  a:hover {
+    opacity: .6;
+    color: #b1afaf;
+    cursor: pointer; }
+
+.card.horizontal {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap; }
+
+.card .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.card .card-image {
+  width: 160px;
+  padding: 20px; }
+
+.card .card-expand {
+  padding-left: 184px; }
+
+.card .card-meta {
+  color: #000;
+  font-weight: 300; }
+
+.card .card-author {
+  color: #ef8361; }
+
+.card .card-title-text a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400; }
+
+.card .card-expand {
+  width: 100%;
+  height: auto; }
+
+.card .chip-list {
+  display: flex; }
+
+.card .chip {
+  margin: 10px 0px 10px 12px; }
+
+.card .action {
+  margin-right: 12px; }
+  .card .action a {
+    color: #ff8a65; }
+
+.card i.right {
+  margin-left: 4px; }
+
+.pagination {
+  display: flex;
+  color: #000; }
+  .pagination .previous {
+    align-content: flex-start; }
+  .pagination .next {
+    align-content: flex-end; }
+  .pagination .middle {
+    margin: 0 auto; }
+
+.progress-container h4 {
+  color: #9ea1a8;
+  font-weight: 800; }
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+
+.iframe-responsive iframe {
+  max-width: 100%; }
+
+.input-field {
+  color: #9e9e9e; }
+
+.text-right {
+  text-align: right; }
+
+.container .row {
+  padding-top: 20px; }
+  .container .row a {
+    display: inline-flex;
+    padding: 0 20px; }
+    .container .row a i {
+      margin-right: 6px; }

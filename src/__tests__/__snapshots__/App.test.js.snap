@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Root testing +++ App Snapshot Testing 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <div>
+      <Uncontrolled(Navbar)
+        bsStyle="default"
+      >
+        <Nav
+          bsClass="nav"
+          justified={false}
+          pullLeft={false}
+          pullRight={false}
+          stacked={false}
+        >
+          <IndexLinkContainer
+            to="/"
+          >
+            <NavItem
+              active={false}
+              disabled={false}
+            >
+              My Feed
+            </NavItem>
+          </IndexLinkContainer>
+          <LinkContainer
+            activeClassName="active"
+            exact={false}
+            replace={false}
+            strict={false}
+            to="/subreddits"
+          >
+            <NavItem
+              active={false}
+              disabled={false}
+            >
+              Subreddits
+            </NavItem>
+          </LinkContainer>
+        </Nav>
+      </Uncontrolled(Navbar)>
+      <div
+        className="container"
+      >
+        <Switch>
+          <Route
+            component={[Function]}
+            path="/subreddits/new"
+          />
+          <Route
+            component={[Function]}
+            path="/subreddits"
+          />
+          <Connect(SubsLoader)
+            component={[Function]}
+          />
+        </Switch>
+      </div>
+      <Connect(ReduxToastr)
+        newestOnTop={false}
+        position="top-right"
+        preventDuplicates={true}
+        progressBar={true}
+        timeOut={4000}
+        transitionIn="fadeIn"
+        transitionOut="fadeOut"
+      />
+    </div>
+  </Router>
+</Provider>
+`;
